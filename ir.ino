@@ -45,6 +45,13 @@ void loop()
         case 0x922F5983: // toshiba play
         case 0xD388DDD:  // az play
         case 0x75C0C3EC: // panasonic src
+
+        case 2331222774: // *
+        case 2814282706: // * * todos os
+        case 752654204:  // * * botões do
+        case 3666469144: // * * controle do
+        case 3660868622: // * * umidificador
+        case 3977836252: // *
           Keyboard.write(' ');
           break;
 
