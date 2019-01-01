@@ -41,8 +41,6 @@ void loop()
       last_value = decoder.value;
       last_time = millis();
 
-      Serial.println(mouse_step);
-
       switch(decoder.value) {
         case 0x922F5983: // toshiba play
         case 0xD388DDD:  // az play
